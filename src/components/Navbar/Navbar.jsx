@@ -8,7 +8,7 @@ export default function Navbar() {
 
     <Flex justifyContent="space-around" alignItems="center">
 
-      <Image src={logo} w={140} mr="3rem" />
+      <Image src={logo} w={140} />
 
       <Navigation />
 
