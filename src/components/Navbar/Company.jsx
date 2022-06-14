@@ -9,7 +9,7 @@ export default function Company() {
       {({ isOpen }) => (
 
       <>
-        <MenuButton isActive={isOpen} color="gray.600" fontWeight="semibold" _hover={ {color:"black", cursor:"pointer"}}>Features <Icon pt={1} as={isOpen ? FaAngleUp : FaAngleDown}/> </MenuButton>
+        <MenuButton color="gray.600" fontWeight="semibold" _hover={ {color:"black", cursor:"pointer"}}>Features <Icon pt={1} as={isOpen ? FaAngleUp : FaAngleDown}/> </MenuButton>
           <MenuList>
             <MenuItem color="gray.600" fontWeight="semibold" _hover={ {color:"black", cursor:"pointer"}}>History</MenuItem>
             <MenuItem color="gray.600" fontWeight="semibold" _hover={ {color:"black", cursor:"pointer"}}>Our Team</MenuItem>

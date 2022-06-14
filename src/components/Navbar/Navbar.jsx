@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 export default function Navbar() {
   return (
 
-    <Flex justifyContent="space-around" alignItems="center">
+    <Flex justifyContent="space-around" alignItems="center" mb={18}>
 
       <Image src={logo} w={140} />
 

@@ -5,7 +5,7 @@ import Company from './Company';
 
 export default function Navigation() {
   return (
-    <Breadcrumb separator="  ">
+    <Breadcrumb separator=" ">
 
     <BreadcrumbItem mr={8}>
       <Features />
